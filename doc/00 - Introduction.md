@@ -36,18 +36,12 @@ a commercial environment. You are also encouraged to contribute.
 
 ### Documented
 
-Yampee Annotations is fully documented, with a dedicated online book, and of course
-a full API documentation.
+Yampee Annotations is fully documented and of course a full API documentation.
 
 ### Fast
 
 One of the goal of Yampee Annotations is to find the right balance between speed and
 features.
-
-### Unit tested
-
-The library is fully unit-tested. With more than 400 unit tests, the library
-is stable.
 
 ### Real Parser and Lexer
 
@@ -66,7 +60,7 @@ Installation
 
 The best way to install Yampee Annotations is to clone this repository:
 
-`git clone git://github.com/tgalopin/Annotations.git`
+`git clone git://github.com/yampee/Annotations.git`
 
 The library can be loaded by the built-in autoloader:
 
@@ -82,10 +76,10 @@ Support
 -------
 
 Support questions and enhancements can be discussed on
-[GitHub](https://github.com/tgalopin/Annotations/issues).
+[GitHub](https://github.com/yampee/Annotations/issues).
 
 If you find a bug, you can create a ticket in the
-[GitHub issues](https://github.com/tgalopin/Annotations/issues).
+[GitHub issues](https://github.com/yampee/Annotations/issues).
 
 License
 -------
