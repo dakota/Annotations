@@ -62,7 +62,7 @@ The best way to install Yampee Annotations is to clone this repository:
 
 `git clone git://github.com/yampee/Annotations.git`
 
-The library can be loaded by the built-in autoloader:
+The library can be loaded using the built-in autoloader:
 
 ``` php
 require 'autoloader.php';
