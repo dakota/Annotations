@@ -286,7 +286,7 @@ class Yampee_Annotations_Reader
 					if (! is_array($attributes[$name])) {
 						$this->createDefinitionException(sprintf(
 							'Attribute "%s" must be of type "array" in annotation "%s"',
-							$name, $child['type'], $annotationName
+							$name, $annotationName
 						));
 					}
 

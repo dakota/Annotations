@@ -14,7 +14,7 @@
  *
  *		public function getAttributesRules()
  *		{
- *			$rootNode = new Yampee_Annotations_Definition_Node('root');
+ *			$rootNode = new Yampee_Annotations_Definition_RootNode();
  *
  *			$rootNode
  *				->anonymousAttr(0, 'pattern', true)

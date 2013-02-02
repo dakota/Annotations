@@ -50,13 +50,13 @@ class RouteAnnotation extends Yampee_Annotations_Definition_Abstract
 	}
 
 	/**
-	 * Return the attributes rules. We will see more details about that in another chapter.
+	 * Return the attributes rules.
 	 *
 	 * @return Yampee_Annotations_Definition_Node
 	 */
 	public function getAttributesRules()
 	{
-		$rootNode = new Yampee_Annotations_Definition_Node('root');
+		$rootNode = new Yampee_Annotations_Definition_RootNode();
 
 		$rootNode
 			->anonymousAttr(0, 'pattern', true)
