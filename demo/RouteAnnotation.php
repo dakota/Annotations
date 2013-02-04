@@ -6,23 +6,16 @@
 class RouteAnnotation extends Yampee_Annotations_Definition_Abstract
 {
 	/**
-	 * @var string
+	 * @var Yampee_Routing_Router
+	 */
+	protected $router;
+
+	/*
+	 * Annotation parameters
 	 */
 	public $pattern;
-
-	/**
-	 * @var string
-	 */
 	public $name;
-
-	/**
-	 * @var array
-	 */
 	public $defaults;
-
-	/**
-	 * @var array
-	 */
 	public $requirements;
 
 	/**
@@ -46,7 +39,7 @@ class RouteAnnotation extends Yampee_Annotations_Definition_Abstract
 	 */
 	public function getTargets()
 	{
-		return array(self::TARGET_CLASS, self::TARGET_METHOD);
+		return array(self::TARGET_METHOD);
 	}
 
 	/**
