@@ -41,10 +41,9 @@ abstract class Yampee_Annotations_Definition_Abstract
 	 * Optionnally extended.
 	 *
 	 * @param Reflector $reflector
-	 * @param array     $arguments
 	 * @return mixed
 	 */
-	public function execute(Reflector $reflector, array $arguments) { }
+	public function execute(Reflector $reflector) { }
 
 	/**
 	 * Define the annotation name.

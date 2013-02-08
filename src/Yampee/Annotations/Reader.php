@@ -117,7 +117,7 @@ class Yampee_Annotations_Reader
 				$attributes = $this->checkIntegrity($annotationClass, $reflector, $instance['attributes']);
 
 				$annotationClass = $this->matchAnnotationProperties($annotationClass, $attributes);
-				$annotationClass->execute($reflector, $attributes);
+				$annotationClass->execute($reflector);
 
 				$annotations[] = $annotationClass;
 			}
