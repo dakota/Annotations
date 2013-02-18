@@ -110,6 +110,9 @@ class Yampee_Annotations_Parser
 			} elseif ($token['token'] == 'T_ARRAY') {
 				$arguments[$currentKey] = (array) $this->parseArguments(trim((string) $token['match'], '{}'));
 				$currentKey = count($arguments);
+			} elseif ($token['token'] == 'T_ARRAY_SIMPLE') {
+				$arguments[$currentKey] = (array) $this->parseArguments(trim((string) $token['match'], '[]'));
+				$currentKey = count($arguments);
 			}
 		}
 
