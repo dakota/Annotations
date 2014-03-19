@@ -1,0 +1,13 @@
+{
+    "name": "dakota/annotations",
+    "description": "Annotations for PHP 5.2, forked from Yampee Annotations",
+    "authors": [
+        {
+            "name": "Walther Lalk",
+            "email": "emailme@waltherlalk.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
